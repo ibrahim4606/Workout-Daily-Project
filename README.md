@@ -8,7 +8,7 @@ Welcome to the Home Workout Tracker project! This repository is designed to help
 <li><b>Instructions: </b>Proper instrustions and awareness are given .</li>
 
 # Output
-<p display=flex width="1000px">
+<p>
   
 ![Screenshot 2024-06-27 120644](https://github.com/user-attachments/assets/995a738a-98f0-4e2e-979d-9e22908e446b)
 ![Screenshot 2024-06-27 120754](https://github.com/user-attachments/assets/40d2b8f2-2089-41cb-840d-361a387de69e)
@@ -16,9 +16,6 @@ Welcome to the Home Workout Tracker project! This repository is designed to help
 ![Screenshot 2024-06-27 120901](https://github.com/user-attachments/assets/1e684406-d4c1-4be7-a497-cf31e5f02a00)
 
 </p>
-
-<a href="mailto:ebrahimvpathan@gmail.com"><img src="https://raw.githubusercontent.com/github/explore/8…8dc1b1d58bb265953553c15a46/topics/gmail/gmail.png" width="60"></a>
-<a href="www.linkedin.com/in/ibrahim-pathan-8539912b4/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
 
 ## How to Contribute
 1. Fork the the project
@@ -29,3 +26,8 @@ Welcome to the Home Workout Tracker project! This repository is designed to help
 
 # NOTE :-
 This website made a for practice and implementation of learning this website totaly based on frontend and thier is no database and no highly use backend language.
+
+# Contact
+<a href="mailto:ebrahimvpathan@gmail.com"><img src="[(https://images.app.goo.gl/mBf4XMEL1tRTGzke7)](https://images.app.goo.gl/mBf4XMEL1tRTGzke7)" width="60"></a>
+<a href="www.linkedin.com/in/ibrahim-pathan-8539912b4/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
+
