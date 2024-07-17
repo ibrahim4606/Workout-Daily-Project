@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorkoutDaily</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="body-bg">
+  <header>
+    <div class="navigationbar">
+      <div class="navbar">
+        <div class="logoNav">
+          <div class="logo"></div>
+        </div>
+        <div class="outbox-optionNav">
+          <div class="inbox-optionNav">
+            <p class="nav-text"><a href="home.html">Home</a></p>
+            <p class="nav-text"><a href="warmup.html">Warm-up</a></p>
+            <p class="nav-text"><a href="abs.html">ABS</a></p>
+            <p class="nav-text"><a href="cardio.html">Cardio</a></p>
+            <p class="nav-text"><a href="diet.html">Diet</a></p>
+            <p class="nav-text"><a href="awareness.html">Awareness</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <marquee scrollamount="4.2">
+          <p id="profileName">
+            Welcome..!
+            <script>
+              document.write(localStorage.getItem("name"));
+            </script>
+          </p>
+        </marquee>
+        <hr>
+        <marquee scrollamount="4" scrolldelay="090">
+          <p id="profileEmail">Email :- 
+            <script>
+               document.write(localStorage.getItem("username"));
+            </script>
+          </p>
+        </marquee>
+        <hr>
+        <div class="ageweg">
+          <p id="in-ageweg">Age:- <input type="number" placeholder="Yrs" maxlength="3" id="in-ageweg-text"></p>
+          <p id="in-ageweg">Weight:-<input type="number" placeholder="Kg" id="in-ageweg-text" maxlength="3"></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <main>
+    <div class="text-container">
+      <h1>Importance of Exercise...!</h1>
+      <h3 style="  margin-bottom: 1.5rem;">Being healthy isn't just about avoiding illness or fitting into certain
+        clothes. It's about unlocking your full potential, physically and mentally, to experience life to the fullest.
+      </h3>
+      <hr>
+      <ul type="disc">
+        <li><b>Waking up with energy to seize the day.&nbsp;</b> Imagine tackling projects with a clear mind and a
+          spring in
+          your step, ready to embrace new challenges.</li><br>
+        <li><b>Feeling confident and strong in your own skin.&nbsp;</b> Imagine moving through life with the knowledge
+          that
+          you're taking care of your body and mind, empowering you to achieve your goals.</li><br>
+        <li><b>Building resilience to bounce back from setbacks.&nbsp;</b> Imagine having the physical and mental
+          fortitude to
+          navigate life's ups and downs with grace and strength.</li><br>
+        <li><b>Discovering activities you love that nourish your soul.&nbsp;</b> Imagine finding movement and practices
+          that
+          bring you joy, whether it's dancing, exploring nature, or simply taking a mindful walk.</li><br>
+      </ul>
+      <p style="  margin: 0 4rem 1.5rem 1.2rem;"><b>Remember, you are the driver of your own well-being. &nbsp;</b>
+        Every
+        choice you make, from what you eat to how you move your body, contributes to your overall health. The good news?
+        Even small changes can have a big impact. Here are some sparks to ignite your journey:</p>
+      <hr>
+      <h1 style="text-decoration: none;">Let's Start.....</h1>
+    </div>
+    <br>
+    <div class="days-container">
+      <div class="days">
+        <a href="chest.html"><button class="box">
+            <div class="box-text">
+              <p>Monday </p><b>Chest</b>
+            </div><img src="chest.png">
+          </button></a>
+        <a href="shoulder.html"><button class="box">
+            <div class="box-text">
+              <p>Tuesday </p><b>Shoulder</b>
+            </div><img src="shoulder.jpg">
+          </button></a>
+        <a href="bicep.html"><button class="box">
+            <div class="box-text">
+              <p>Wednesday </p><b>Biceps</b>
+            </div><img src="biceps.jpg">
+          </button></a>
+        <a href="back.html"><button class="box">
+            <div class="box-text">
+              <p>Thursday </p><b>Back</b>
+            </div><img src="back.jpg">
+          </button></a>
+        <a href="tricep.html"><button class="box">
+            <div class="box-text">
+              <p>Friday </p><b>Triceps</b>
+            </div><img src="tricep.png">
+          </button></a>
+        <a href="leg.html"><button class="box">
+            <div class="box-text">
+              <p>Saturday </p><b>Legs</b>
+            </div><img src="legs.jpg">
+          </button></a>
+      </div>
+    </div>
+    <br><br><br>
+  </main>
+
+  <div class="text"></div>
+  <footer style="background-color: #11042f;">
+    <div class="footer-info">
+      <p><i class="fa-solid fa-phone"></i><a href="tel:9322761964"><b>&nbsp; Contact No. :-</b>&nbsp; 9322761964</a></p>
+      <p><i class="fa-solid fa-envelope"></i><a href="mailto:ebrahimvpathan@gmail.com"><b>&nbsp; Email-ID :-</b>&nbsp;
+          ebrahimvpathan@gamil.com</a></p>
+      <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/ibrahim-pathan-8539912b4"><b>&nbsp;
+            Linkedin :-</b>&nbsp; Ibrahim Pathan</a> </p>
+      <p><i class="fa-brands fa-square-whatsapp"></i><a
+          href="https://wa.me/9322761964?text=Thanks...! To Give Me An Opportunity To sRepresent My Project Infront Of You"><b>&nbsp; Whatsapp
+            no. :-</b>&nbsp;9322761964</a> </p>
+      <p><i class="fa-brands fa-square-instagram"></i><a
+          href="https://www.instagram.com/mr.ebrahim.06?igsh=ZjVxbGl1Ym9yMW5r"><b>&nbsp; Insta-Detail :-</b>&nbsp;
+          mr.ebrahim.06</a></p>
+    </div>
+    <div class="watermark">
+      <p class="thanks">
+        THANK YOU
+      </p>
+      <hr style="size:3; width:30%; margin: 10px; margin-bottom: 10px;">
+      <span style="display:flex; align-items: center;">
+        <p>Made by</p>&nbsp;
+        <p class="WM-IB">IBRAHIM</p>
+      </span>
+
+    </div>
+  </footer>
+</body>
+
+</html>

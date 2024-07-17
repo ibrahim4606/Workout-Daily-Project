@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkoutDaily-Awareness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="body-bg">
+  <header>
+    <div class="navigationbar">
+      <div class="navbar">
+        <div class="logoNav">
+          <div class="logo"></div>
+        </div>
+        <div class="outbox-optionNav">
+          <div class="inbox-optionNav">
+            <p class="nav-text"><a href="home.html">Home</a></p>
+            <p class="nav-text"><a href="warmup.html">Warm-up</a></p>
+            <p class="nav-text"><a href="abs.html">ABS</a></p>
+            <p class="nav-text"><a href="cardio.html">Cardio</a></p>
+            <p class="nav-text"><a href="diet.html">Diet</a></p>
+            <p class="nav-text"><a href="awareness.html">Awareness</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <marquee scrollamount="4.2">
+          <p id="profileName">
+            Welcome..!
+            <script>
+              document.write(localStorage.getItem("name"));
+            </script>
+          </p>
+        </marquee>
+        <hr>
+        <marquee scrollamount="4" scrolldelay="090">
+          <p id="profileEmail">Email :- 
+            <script>
+               document.write(localStorage.getItem("username"));
+            </script>
+          </p>
+        </marquee>
+        <hr>
+        <div class="ageweg">
+          <p id="in-ageweg">Age:- <input type="number" placeholder="Yrs" maxlength="3" id="in-ageweg-text"></p>
+          <p id="in-ageweg">Weight:-<input type="number" placeholder="Kg" id="in-ageweg-text" maxlength="3"></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <div class="text-container">
+    <h1>Awareness :</h1>
+    <h3 style="  margin-bottom: 1.5rem;">In an increasingly sedentary world, where technology beckons and convenience often takes precedence over physical activity, promoting awareness about exercise and fitness has become more crucial than ever. It's not just about looking good; it's about feeling good, living longer, and fostering a sustainable well-being that benefits individuals and society as a whole.</h3>
+    <hr>
+    <p style="   margin: 0 10rem 3rem 2rem;"><b>The first step towards a healthier future lies in raising awareness about the numerous benefits of exercise and fitness.&nbsp;</b> This goes beyond simply knowing that exercise is "good for you." It involves understanding the intricate link between physical activity and various aspects of life:</p>
+    <ul type="disc">
+        <li><b>Physical health :&nbsp; </b> Exercise strengthens muscles and bones, improves cardiovascular health, boosts the immune system, and helps manage chronic conditions like diabetes and obesity.</li><br>
+        <li><b>Mental health :&nbsp; </b>Physical activity reduces stress, anxiety, and depression, while improving mood, sleep quality, and cognitive function.</li><br>
+        <li><b>Social well-being :&nbsp; </b> Engaging in physical activities with others fosters social connections, teamwork, and a sense of belonging.</li><br>
+        <li><b>Improved productivity :&nbsp; </b> Regular exercise enhances energy levels, focus, and concentration, leading to better performance in academic, professional, and personal spheres.</li><br>
+      </ul>
+      <p style="  margin: 2rem 10rem 1.5rem 2rem;"><b>Raising awareness about exercise and fitness is not just about promoting individual well-being;</b> &nbsp;it's about building a healthier, happier, and more vibrant society. By understanding the benefits, taking action, and addressing challenges, we can collectively move towards a future where physical activity is woven into the fabric of our lives, empowering individuals and communities to thrive.</p>
+      <p style="  margin: 0 10rem 3rem 2rem;"><b>Remember, &nbsp;</b> even small steps towards a more active lifestyle can make a significant difference. Start by finding activities you enjoy, set achievable goals, and celebrate your progress. Together, we can create a world where movement is not just a choice, but a way of life.</p>
+  </div>
+</body>
+</html>

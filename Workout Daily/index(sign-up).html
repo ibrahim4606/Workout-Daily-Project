@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorkoutDaily-Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="signup">
+      <i class="fa-solid fa-xmark"></i>
+      <div class="signup-container" style="margin-right: 20px;">
+        <p id="createaccount"> Create Account</p>
+        <p id="caption">Use Your Email For registration</p>
+        <div class="signup-box">
+          <form id="my-form">
+            <input type="text" id="name" name="FullName" placeholder="Full Name" autocomplete="off" required>
+            <br>
+            <br>
+            <input type="email" id="username" name="email" placeholder="E-mail" autocomplete="off" required>
+            <br>
+            <br>
+            <input type="password" id="password" minlength="8" maxlength="16" name="password" placeholder="Password"
+              autocomplete="off" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$]).{8,16}">
+            <label for="password" id="show-password-eye">
+              <i class="fa-solid fa-eye"></i>
+            </label>
+            <div class="passwordmatch">
+              <p style="color: red;">Note :-</p>
+              <p> Password must include , <b>Uppercase letter , Lowercase letter , Numbers , Special characters
+                  (@#$).</b></p>
+            </div>
+            <button type="submit" id="signupbt">SIGN UP</button>
+          </form>
+          <p id="sign-in-link">If You Already Have An Account. Please Click Here..! <a href="sign-in.html">Sign in</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let showPass = document.querySelector(".fa-eye");
+    let passType = document.querySelector("#password");
+    let cancel = document.querySelector(".fa-xmark");
+    const signupbt = document.querySelector("#signupbt");
+
+    showPass.addEventListener("click", () => {
+
+      if (passType.type === "password") {
+        passType.type = "text";c
+        showPass.classList.replace("fa-eye", "fa-eye-slash");
+      }
+      else {
+        passType.type = "password";
+        showPass.classList.replace("fa-eye-slash", "fa-eye");
+      }
+    });
+    cancel.addEventListener("click", function () {
+      alert("Please Sign in or Sign up the page...!")
+    });
+
+
+    const signUpForm = document.getElementById('my-form');
+    signUpForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const name = document.getElementById('name').value;
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      localStorage.setItem('name', name);
+      localStorage.setItem('username', username);
+      localStorage.setItem('password', password);
+
+      window.location.href = 'sign-in.html';
+    });
+
+  </script>
+</body>
+
+</html>
