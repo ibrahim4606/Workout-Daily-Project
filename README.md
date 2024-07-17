@@ -33,5 +33,5 @@ This website made a for practice and implementation of learning this website tot
 
 # Contact
 <a href="mailto:ebrahimvpathan@gmail.com"><img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Gmail.png?raw=true" width="60"></a>
-<a href="www.linkedin.com/in/ibrahim-pathan-8539912b4/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
+<a href="www.linkedin.com/in/ibrahim-pathan-8539912b4/"><img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/LinkedIN.png?raw=true" width="60"></a>
 
