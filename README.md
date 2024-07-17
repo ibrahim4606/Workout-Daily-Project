@@ -10,3 +10,6 @@ Welcome to the Home Workout Tracker project! This repository is designed to help
 # Output
 
 ![Screenshot 2024-06-27 120644](https://github.com/user-attachments/assets/995a738a-98f0-4e2e-979d-9e22908e446b)
+![Screenshot 2024-06-27 120754](https://github.com/user-attachments/assets/40d2b8f2-2089-41cb-840d-361a387de69e)
+![Screenshot 2024-06-27 120825](https://github.com/user-attachments/assets/f58e8f31-488d-47eb-8deb-00711d476e14)
+![Screenshot 2024-06-27 120901](https://github.com/user-attachments/assets/1e684406-d4c1-4be7-a497-cf31e5f02a00)
