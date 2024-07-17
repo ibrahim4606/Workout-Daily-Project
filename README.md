@@ -28,6 +28,6 @@ Welcome to the Home Workout Tracker project! This repository is designed to help
 This website made a for practice and implementation of learning this website totaly based on frontend and thier is no database and no highly use backend language.
 
 # Contact
-<a href="mailto:ebrahimvpathan@gmail.com"><img src="[(https://images.app.goo.gl/mBf4XMEL1tRTGzke7)](https://images.app.goo.gl/mBf4XMEL1tRTGzke7)" height="60" width="60"></a>
+<a href="mailto:ebrahimvpathan@gmail.com"><img src="[[(https://images.app.goo.gl/mBf4XMEL1tRTGzke7)](https://images.app.goo.gl/mBf4XMEL1tRTGzke7)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dgmail&psig=AOvVaw2lL-94FZjCFT3gMi6AynPZ&ust=1721292488989000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCM1K3YrYcDFQAAAAAdAAAAABAG)" height="60" width="60"></a>
 <a href="www.linkedin.com/in/ibrahim-pathan-8539912b4/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
 
